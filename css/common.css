@@ -1,0 +1,28 @@
+body {
+    font-family: Mono,FreeMono,Monospace,sans-mono;
+    background: #000000 url('/imgs/map-red-light.png') no-repeat fixed center;
+    color: #ff8000;
+    text-align: center;
+}
+
+a {
+    color: #ff8000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffa040;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 5px;
+}
+
+td {
+    border: 1px dotted #4f4f4f;
+}
+
