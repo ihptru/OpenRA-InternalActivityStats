@@ -7,9 +7,15 @@
         <!--meta http-equiv="Refresh" content="60"-->
         <title>OpenRA master server graphics</title>
         <link rel="stylesheet" type="text/css" href="/css/common.css">
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script>
+		$(document).ready( function(){
+			$(".ts").load("log/redraw.ts");
+		});
+		</script>
     </head>
     <body>
-        Time by UTC+0. Update TS: <!--#include virtual="log/redraw.ts" -->.
+        Time by UTC+0. Update TS: <span class="ts"></span>.
         <br><br>
         <img src="/graph/players-hour.png" alt=''><br>
         <img src="/graph/players-day.png" alt=''><br>
