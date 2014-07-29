@@ -1,6 +1,6 @@
 <?php
 
-define('URL', 'http://master.open-ra.org/list_json.php');
+define('URL', 'http://master.openra.net/games_json');
 
 $data=file_get_contents(URL);
 if($data === FALSE) {
