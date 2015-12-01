@@ -1,6 +1,6 @@
 #!/bin/bash
 # repository root directory without slash at the end
-H='/home/openrassh/www/ms_activity_stats'
+H='/Web/openra/sites/activity.openra.net/www'
 
 export LANG='en_US.UTF-8'
 export LC_ALL='en_US.UTF-8'
