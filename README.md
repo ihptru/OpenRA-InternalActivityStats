@@ -12,3 +12,5 @@ Result is a set of png files and html page to display them.
 
 
 Before setting up cron, edit "H" variable in bin/draw_graph.sh and bin/update_graphdb.sh
+
+* Uptime: http://stats.pingdom.com/syygqlg6525r/1950684
