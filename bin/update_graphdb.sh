@@ -1,6 +1,6 @@
 #!/bin/bash
 # repository root directory without slash at the end
-H='/Web/openra/sites/activity.openra.net/www'
+H='/home/resource/sites/activity.openra.net/www'
 
 STAT=($(php "${H}/bin/getstat.php" 2>/dev/null))
 

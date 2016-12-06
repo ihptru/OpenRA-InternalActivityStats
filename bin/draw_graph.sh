@@ -1,6 +1,6 @@
 #!/bin/bash
 # repository root directory without slash at the end
-H='/Web/openra/sites/activity.openra.net/www'
+H='/home/resource/sites/activity.openra.net/www'
 
 export LANG='en_US.UTF-8'
 export LC_ALL='en_US.UTF-8'
